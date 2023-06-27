@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "C:/Users/Lenovo/Workplace/my-app/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "C:/Users/Lenovo/Workplace/my-app/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "C:/Users/Lenovo/Workplace/my-app"
+      ],
+      "~/*": [
+        "C:/Users/Lenovo/Workplace/my-app/*"
+      ],
+      "@": [
+        "C:/Users/Lenovo/Workplace/my-app"
+      ],
+      "@/*": [
+        "C:/Users/Lenovo/Workplace/my-app/*"
+      ],
+      "~~": [
+        "C:/Users/Lenovo/Workplace/my-app"
+      ],
+      "~~/*": [
+        "C:/Users/Lenovo/Workplace/my-app/*"
+      ],
+      "@@": [
+        "C:/Users/Lenovo/Workplace/my-app"
+      ],
+      "@@/*": [
+        "C:/Users/Lenovo/Workplace/my-app/*"
+      ],
+      "assets": [
+        "C:/Users/Lenovo/Workplace/my-app/assets"
+      ],
+      "public": [
+        "C:/Users/Lenovo/Workplace/my-app/public"
+      ],
+      "public/*": [
+        "C:/Users/Lenovo/Workplace/my-app/public/*"
+      ]
+    }
+  },
+  "include": [
+    "C:/Users/Lenovo/Workplace/my-app/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
